@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/images/AdobeHills.png) center center no-repeat;
+    background-size: cover;
+    color: white;
+    padding:40px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+#disclaimer{
+    font-style: italic;
+    text-align: center;
+}
+
+#stream-image{
+    background-image: url(/images/AdobeHills.png);
+    background-repeat:none;
+    background-size: cover;
+    height: 334px;
+    width:635px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 0.5em;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em;
+    background-color: #3e8e67;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #5fae88;
+}
+
+.card{
+    margin-top:5%;
+}
+
+.card img{
+    margin-top:20%;
+}
