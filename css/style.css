@@ -41,7 +41,7 @@ nav li {
     margin-bottom: 0.5em;
 }
 
-nav a {
+nav a{
     display: block;
     padding: 0.5em;
     background-color: #3e8e67;
@@ -61,3 +61,47 @@ nav a:hover {
 .card img{
     margin-top:20%;
 }
+
+.inactive-link{
+    color:slategrey;
+    font-weight: bold;
+}
+
+.icons{
+    width: 30px !important;
+}
+
+.my-card{
+    border: 1px green solid;
+}
+
+.my-card-row{
+    display: flex;
+    align-items: center;
+}
+
+.page-message-row{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom:30px;
+}
+
+.groups-buttons{
+    padding:0em 2.5em !important;
+    font-size: 2.0em !important;
+}
+
+.members-list{
+    display:flex;
+    flex-flow: row wrap;
+    background-color: #d7f7e7;
+    margin: 10px 0px;
+}
+
+.members-list div{
+    margin:0 1.2em;
+}
+
+
+
+
