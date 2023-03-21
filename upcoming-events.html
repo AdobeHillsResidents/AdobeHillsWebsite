@@ -9,7 +9,7 @@
 
     <title>Meet Neighbors</title>
 </head>
-<body>
+<body onload="loadNavigation()">
     <div class="container">
         <!-- HEADER ROW -->
         <div class="row">
@@ -31,19 +31,8 @@
         <!-- MAIN ROW -->
         <div class="row">
             <!-- NAVIGATION PANE -->
-            <div class="col-2" id="nav-pane">
-                <nav>
-                    <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="meet-neighbor.html">Meet My Neighbors</a></li>
-                    <li><a href="board-members.html">Board Members</a></li>
-                    <li><a href="upcoming-events.html">Upcoming Events</a></li>
-                    <li><a href="hoa-info.html">HOA Info</a></li>
-                    <li><a href="hire-a-neighbor.html">Hire a Neighbor</a></li>
-                    <li><a href="our-groups.html">Groups</a></li>
-                    <li><a href="share-a-recipe.html">Share a Recipe</a></li>
-                    </ul>
-                </nav>
+            <div class="col-2">
+                <div id="nav-placeholder"></div>
             </div>
             <!-- CONTENT PANE -->
             <div class="col-10" id="content-pane">
@@ -57,7 +46,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                 <h5 class="card-title">SPECIAL ELECTION MEETING</h5>
-                                <p class="card-text">Special meeting called for (either: Tuesday April 4, 2023 or Wednesday April 5, 2023 [pending confirmation]). <a href="/documents/SpecialMeetingNoticeApril2023.pdf"> See notice here. </a></p>
+                                <p class="card-text">Special meeting called for Wednesday April 5, 2023. <a href="/documents/SpecialMeetingNoticeApril2023.pdf"> See notice here. </a></p>
                                 </div>
                             </div>
                             </div>
@@ -104,5 +93,6 @@
 
                 
     </div>    
+    <script src="js/script.js"></script>
 </body>
 </html>
