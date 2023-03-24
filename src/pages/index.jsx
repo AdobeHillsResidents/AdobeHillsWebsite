@@ -278,7 +278,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Adobe Hills Residents</title>
+        <title>Adobe Hills Residents </title>
         <meta
           name="description"
           content="Rochester Glens, a deed restricted neighborhood."
