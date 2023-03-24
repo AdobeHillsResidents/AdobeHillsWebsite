@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/images/AdobeHills.png) center center no-repeat;
+    background-size: cover;
+    color: white;
+    padding:40px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+#disclaimer{
+    font-style: italic;
+    text-align: center;
+}
+
+#stream-image{
+    background-image: url(/images/AdobeHills.png);
+    background-repeat:none;
+    background-size: cover;
+    height: 334px;
+    width:635px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 0.5em;
+}
+
+nav a{
+    display: block;
+    padding: 0.5em;
+    background-color: #3e8e67;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #5fae88;
+}
+
+.card{
+    margin-top:5%;
+}
+
+.card img{
+    margin-top:20%;
+}
+
+.inactive-link{
+    color:slategrey;
+    font-weight: bold;
+}
+
+.icons{
+    width: 30px !important;
+}
+
+.my-card{
+    border: 1px green solid;
+}
+
+.my-card-row{
+    display: flex;
+    align-items: center;
+}
+
+.page-message-row{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom:30px;
+}
+
+.groups-buttons{
+    padding:0em 2.5em !important;
+    font-size: 2.0em !important;
+}
+
+.members-list{
+    display:flex;
+    flex-flow: row wrap;
+    background-color: #d7f7e7;
+    margin: 10px 0px;
+}
+
+.members-list div{
+    margin:0 1.2em;
+}
+
+
+
+
