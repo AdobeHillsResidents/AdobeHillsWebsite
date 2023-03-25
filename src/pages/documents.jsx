@@ -35,7 +35,7 @@ export default function Documents({
   return (
     <>
       <Head>
-        <title>Documents - Rochester Glens</title>
+        <title>Documents - Adobe Hills</title>
         <meta
           name="description"
           content="Historical documents for the neighborhood."
