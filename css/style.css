@@ -4,7 +4,7 @@
 }
 
 .header {
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/images/AdobeHills.png) center center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/AdobeHillsWebsite/images/AdobeHills.png) center center no-repeat;
     background-size: cover;
     color: white;
     padding:40px 0;
@@ -23,7 +23,7 @@
 }
 
 #stream-image{
-    background-image: url(/images/AdobeHills.png);
+    background-image: url(/AdobeHillsWebsite/images/AdobeHills.png);
     background-repeat:none;
     background-size: cover;
     height: 334px;
