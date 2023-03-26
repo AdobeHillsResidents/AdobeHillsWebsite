@@ -1,14 +1,17 @@
 {
+  "homepage": "https://adobehillsresidents.github.io/AdobeHillsWebsite/",
   "name": "tailwindui-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "replaceFilePaths": "node replacer.js",
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build && next export -o build && npm run replaceFilePaths",
     "start": "next start",
-    "export": "next export",
+    "export": "next export -o build && npm run replaceFilePaths",
     "predeploy": "npm run build",
-    "deploy": "npm run build && npm run export"
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'https://adobehillsresidents.github.io/AdobeHillsWebsite' > ./out/CNAME",
+    "deploy": "gh-pages -d build  -t true"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
