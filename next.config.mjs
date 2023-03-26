@@ -9,15 +9,10 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
-  env: {
-    PUBLIC_URL: "https://adobehillsresidents.github.io/AdobeHillsWebsite/",
-    assetPrefix: './'
-  },
   images: {
     loader: 'akamai',
     path: '',
   },
-  assetPrefix: './',
 }
 
 const withMDX = nextMDX({
