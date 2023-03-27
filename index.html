@@ -1,76 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/AdobeHillsWebsite/css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
-        <title>Adobe Hills Residents</title>
-    </head>
-    
-<body onload="loadNavigation()">
-    <div class="container">
-        <!-- HEADER ROW -->
-        <div class="row">
-            <div class="col">
-                <div class="header">
-                    <h1 class="text-center">Welcome to Adobe Hills!</h1>
-                </div>
-            </div>
+  <head>
+    <title>Adobe Hills Home Owners Association</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/CLTIcon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Adobe Hills</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="upcomingEvents.html">Upcoming Events</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="usefulDocuments.html">Board Meeting Minutes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Documents
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="pdf docs/Adobe_Hills_Bylaws.pdf" target="_blank">Adobe Hills ByLaws</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="supportNeighbors.html">Support Your Neighbors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hoaBoard.html">Your HOA Board</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="helpfulHints.html">Helpful Home Hints</a>
+              </li>
+
+          
+            </ul>
+          </div>
         </div>
-        <!-- DISCLAIMER ROW -->
-        <div class="row">
-            <div class="col" id="disclaimer">
-                <p>For current and prospective residents of the Adobe Hills community in Fremont, CA
-                    <br>
-                This website is created and maintained by Adobe Hills Residents.
-                </p>
-            </div>
-        </div>
-        <!-- MAIN ROW -->
-        <div class="row">
-            <!-- NAVIGATION PANE -->
-            <div class="col-2">
-                <div id="nav-placeholder"></div>
-            </div>
+      </nav>
+      <img src="images/AdobeHills.jpg" alt="Adobe Hills Sign" class="img-fluid">
 
-            <!-- CONTENT PANE -->
-            <div class="col-10" id="content-pane">
-                <div class="row">
-                    <div class="col">
-                        <div id="stream-image"></div>
-                        <br>
-                        <p>Welcome to the Adobe Hills Residents web page! This is the online hub for our vibrant community of homeowners, renters, and neighbors. Here, you can find information about upcoming events, community updates, and important announcements.
-                        </p>
-                        <p>We believe that Adobe Hills is more than just a place to live, it's a community. Our goal is to foster a sense of belonging and togetherness among all residents, and this web page is just one way we do that.
-                        </p> 
-                            
-                        <p>We encourage you to explore the various sections of the site, including the calendar of events, the photo gallery, and the forum where you can connect with other residents. We also welcome your feedback and suggestions for how we can improve this page and make it even more useful for everyone.
-                        </p>
-                            
-                        <p>Thank you for being a part of the Adobe Hills community. We hope that this web page helps you feel more connected and engaged with your neighbors and your neighborhood.</p>
-                        <br>
-                        <p><em>We are located (<a href="https://www.google.com/maps/place/Adobe+Hills/@37.557919,-121.9722004,17z/data=!4m10!1m2!2m1!1sAdobe+Hills+HOA!3m6!1s0x808fc08cb3e54de3:0x917da82d00a42df1!8m2!3d37.5588607!4d-121.9704284!15sCg9BZG9iZSBIaWxscyBIT0GSARNjb25kb21pbml1bV9jb21wbGV44AEA!16s%2Fg%2F11gzn13km?hl=en" target="map" rel="noopener noreferrer">Google Maps link</a>) Close to the intersection of Guardino Drive and Walnut Avenue.</em></p>
-                        <p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.878808327537!2d-121.97220042039893!3d37.55791899346378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc08cb3e54de3%3A0x917da82d00a42df1!2sAdobe%20Hills!5e0!3m2!1sen!2sus!4v1678770250998!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <br></p>
-                        <hr>
-                        <p>The <a href="http://www.bart.gov" target="bart" rel="noopener noreferrer">Fremont BART station</a> is less than one mile away, and we are within walking distance of the park and recreational facilities of Fremont's <a href="http://www.ci.fremont.ca.us/Recreation/CentralPark/default.htm" target="cp" rel="noopener noreferrer">Central Park and Lake Elizabeth</a>. The <a href="http://www.ci.fremont.ca.us/Recreation/Tennis/default.htm" target="ten" rel="noopener noreferrer">Fremont Tennis Center</a> is just 2 blocks away, and the <a href="http://www.fremontgolf.com" target="golf" rel="noopener noreferrer">Golf Club at Fremont Park</a> is about a half-mile away. In addition, the <a href="http://www.aclibrary.org/branches/frm/fremonthome.asp" target="lib" rel="noopener noreferrer">Alameda County Library</a> is just a few minutes away by car or walking, while the <a href="http://www.thefremonthub.com" target="hub" rel="noopener noreferrer">Fremont Hub Shopping Center</a> is about 2 miles away. Major freeways I-880 and I-680 are also just a few minutes away. Last but not least, the <a href="http://www.goaquaadventure.com/" target="goaa" rel="noopener noreferrer">Fremont Aqua Adventure</a> has recently opened.</p>
-                        <hr>
-                        </div>
-                        <hr>
-                        <p>Here is a <a href="" target="map" rel="noopener noreferrer">map of the complex</a> that has building numbers.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
+    </header>
+    <div class="card">
+      <div class="card-header">
+        <h1><h1>Welcome to the Adobe Hills Home Owner's Association</h1></h1>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <footer class="blockquote-footer">Adobe Hills is a 167 home community founded in 1990</footer>
+        </blockquote>
+      </div>
     </div>
-    
-<script src="js/script.js"></script>
-</body>
+    <div class="container-md">
+        <h2>Latest Community News</h2>
+        <ul>
+          <li><b>Upcoming</b> Special Meeting for Recall of Board Members on 5th April 7PM at Clubhouse </li>
+          <a href="pdf docs/Notice of Special Membership Meeting.pdf" target="_blank">Special Meeting Notice</a>
+        </ul>
+      </div>
+    </div>
+    <footer class="footer mt-autp py-3 bg-light">
+      <div class="container">
+          <span class="text-muted"><a href="mailto:emodie49@gmail.com,gwenmehta4@gmail.com,sandybeliso810@gmail.com,gwhaley@ahafremont.com" target="_blank">Email the Board</a></span>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
 </html>
